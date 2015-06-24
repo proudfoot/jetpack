@@ -5,7 +5,7 @@
 function jetpack_responsive_videos_init() {
 
 	/* If the doesn't theme support 'jetpack-responsive-videos', don't continue */
-	if ( ! current_theme_supports( 'jetpack-responsive-videos' ) ) {
+	if ( ! current_theme_supports( 'jetpack-responsive-videos' ) || is_videopress_next_blog() || is_automattician() ) {
 		return;
 	}
 
