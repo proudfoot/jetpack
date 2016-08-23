@@ -90,7 +90,8 @@ function jetpack_responsive_videos_maybe_wrap_oembed( $html, $url ) {
 		'https?://(www\.)?funnyordie\.com/videos/',
 		'https?://vine.co/v/',
 		'https?://(www\.)?collegehumor\.com/video/',
-		'https?://(www\.|embed\.)?ted\.com/talks/'
+		'https?://(www\.|embed\.)?ted\.com/talks/',
+		'https?://(secure\.)?mlb\.com/shared/',
 	) );
 
 	// Merge patterns to run in a single preg_match call.
